@@ -9,8 +9,8 @@ function NavBar() {
       <a class="navbar-brand" href="#">ATLA API</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Random ATLA Character</a></li>
-      <li><a href="#">Bending</a></li>
+      <li class="active"><a href="../public/index.html">Random ATLA Character</a></li>
+      <li><a href="../public/bending.html">Bending</a></li>
       <li><a href="#">Locations</a></li>
       <li><a href="#">Avatars</a></li>
     </ul>
