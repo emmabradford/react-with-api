@@ -34,7 +34,7 @@ function RandomChar() {
             <h1> enemies: {Data.enemies}</h1>
             <h1> position: {Data.position}</h1>
 
-            <img src={Data.photoUrl} alt="Italian Trulli" />
+            <img src={Data.photoUrl} alt={Data.name} />
 
         </div>
     );
