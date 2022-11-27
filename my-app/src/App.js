@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import RandomChar from './randomChar';
+import RandomChar from './pages/randomChar';
 import './App.css';
 import NavBar from "./navBar.js";
 
