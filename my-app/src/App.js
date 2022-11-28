@@ -5,9 +5,10 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 import RandomChar from './pages/randomChar';
-import Avatars from './pages/avatars';
-import Bending from './pages/bending';
-import Locations from './pages/locations';
+import Water from './pages/water';
+import Fire from './pages/fire';
+import Air from './pages/air';
+import Earth from './pages/earth';
 
 // for multi page stuff : https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
   
@@ -17,9 +18,10 @@ return (
     <Navbar />
     <Routes>
         <Route path='/' element={<RandomChar />} />
-        <Route path='/avatars' element={<Avatars/>} />
-        <Route path='/bending' element={<Bending/>} />
-        <Route path='/locations' element={<Locations/>} />
+        <Route path='/water' element={<Water/>} />
+        <Route path='/fire' element={<Fire/>} />
+        <Route path='/earth' element={<Earth/>} />
+        <Route path='/air' element={<Air/>} />
     </Routes>
     </Router>
 );

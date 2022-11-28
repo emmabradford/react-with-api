@@ -18,14 +18,17 @@ const Navbar = () => {
                     <NavLink to="/" activeStyle>
                         Random Character
                     </NavLink>
-                    <NavLink to="/avatars" activeStyle>
-                        Avatars
+                    <NavLink to="/water" activeStyle>
+                        WaterBending
                     </NavLink>
-                    <NavLink to="/bending" activeStyle>
-                        Bending
+                    <NavLink to="/fire" activeStyle>
+                        FireBending
                     </NavLink>
-                    <NavLink to="/Locations" activeStyle>
-                        Locations
+                    <NavLink to="/earth" activeStyle>
+                        EarthBending
+                    </NavLink>
+                    <NavLink to="/air" activeStyle>
+                        AirBending
                     </NavLink>
                     </ul>
                 </div>
